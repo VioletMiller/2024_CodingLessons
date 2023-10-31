@@ -45,5 +45,6 @@
   "git.allowForcePush": true,
   "java.jdt.ls.vmargs": "-Xmx1500m -Xms200m -Xlog:disable",
   "gitlens.telemetry.enabled": false,
-  "gitlens.codeLens.dateFormat": ""
+  "gitlens.codeLens.dateFormat": "",
+  "java.debug.settings.onBuildFailureProceed": true
 }
