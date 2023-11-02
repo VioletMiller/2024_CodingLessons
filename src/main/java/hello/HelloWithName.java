@@ -15,12 +15,12 @@ public class HelloWithName {
         System.out.println("What is your last name?");
 
         String lastname = scanner.nextLine();
-        
+
         System.out.println("What is your favourite candy?");
 
         String candy = scanner.nextLine();
 
-        System.out.println("Hello " name + lastname + "I love " + candy);
+        System.out.println("Hello " + name + " " + lastname + " I love " + candy);
     }
 
 }
