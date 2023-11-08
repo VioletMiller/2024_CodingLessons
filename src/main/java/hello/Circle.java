@@ -1,6 +1,6 @@
 package main.java.hello;
 
-public class Circle {
+public class Circle extends Shape {
     private static final double PI = 3.14;
     private double              radius;
 
@@ -12,7 +12,8 @@ public class Circle {
         radius = newRadius;
     }
 
-    public double area() {
+    @Override
+    public double getArea() {
         double circleArea;
         circleArea = PI * radius * radius;
         return (circleArea);
@@ -21,6 +22,7 @@ public class Circle {
     public double getRadius() {
         return (radius);
     }
+
 }
 
 

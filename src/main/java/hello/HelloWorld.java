@@ -23,9 +23,16 @@ public class HelloWorld {
 
         System.out.println("The area of the circle after I change it is " + mycircle.area());
 
+        System.out.println("What is the radius of a different circle?");
 
+        double newradius       = scanner.nextDouble();
+
+        Circle differentcircle = new Circle();
+
+        differentcircle.setRadius(newradius);
+
+        System.out.println("The area of the different circle is " + differentcircle.area()
+            + " and the area of the first circle is " + mycircle.area());
 
     }
-
-
 }
